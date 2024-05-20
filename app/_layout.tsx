@@ -12,7 +12,6 @@ const Layout = () => {
     >
       <Stack.Screen name="index" options={{ title: "Home" }} />
       <Stack.Screen name="(pokemon)/[id]" options={{ title: "" }} />
-
     </Stack>
   );
 };

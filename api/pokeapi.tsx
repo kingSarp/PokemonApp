@@ -13,7 +13,7 @@ export interface Pokemon {
   image: string;
   abilities: any;
   stats:any;
-  sprities:any;
+  sprites:any;
 }
 
 export const getPokemon = async (limit: number = 150): Promise<Pokemon[]> => {
